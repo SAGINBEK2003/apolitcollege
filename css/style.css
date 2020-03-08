@@ -1,0 +1,138 @@
+.carousel-indicators {
+    display: none;
+}
+.carousel-caption {
+    bottom: 30%;
+}
+.h3-responsive {
+    font-size: 350%;
+    font-weight: 600;
+}
+.carousel__text {
+    font-size: 24px;
+}
+.blog-txt {
+    font-size: 18px;
+}
+/* Box */
+.main-container {
+    margin: 10px auto;
+}
+.box__nav {
+    display: grid;
+    margin: 10px auto;
+}
+.box__one {
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4;
+}
+.box__two {
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4;
+    margin-left: auto;
+}
+
+#map{
+    width: 100%;
+    height: 400px;;
+}
+@media (min-width: 992px) {
+    .box__nav {
+        grid-template-columns: 1fr 1fr;
+    }
+    .box__one{
+        width: 148%;
+    }
+    .box__two {
+        width: 50%;
+    }
+}
+
+
+/* /Box */
+@media (max-width: 1300px ) {
+    .carousel-caption {
+        bottom: 20%;
+        transition: .4s;
+    }
+    .h3-responsive {
+        font-size: 300%;
+        font-weight: 600;
+    }
+    .carousel__text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1100px ) {
+    .carousel-caption {
+        bottom: 20%;
+        transition: .4s;
+    }
+    .h3-responsive {
+        font-size: 230%;
+    }
+    .carousel__text {
+        font-size: 20px;
+    }
+}
+@media (max-width: 900px ) {
+    .carousel-caption {
+        bottom: 18%;
+        transition: .4s;
+    }
+    .h3-responsive {
+        font-size: 165%;
+    }
+    .carousel__text {
+        font-size: 18px;
+    }
+}
+@media (max-width: 720px ) {
+    .carousel-caption {
+        bottom: 10%;
+        transition: .4s;
+    }
+    .h3-responsive {
+        font-size: 125%;
+    }
+}
+@media (max-width: 620px ) {
+    .carousel-caption {
+        bottom: 5%;
+        transition: .8s;
+    }
+    .h3-responsive {
+        font-size: 115%;
+    }
+    .carousel__text {
+        font-size: 12px;
+    }
+}
+@media (max-width: 550px) {
+    p {
+        font-size: 10px;
+        transition: .5s;
+    }
+}
+@media (max-width: 440px) {
+    .h3-responsive {
+        font-size: 100%;
+        transition: .5s;
+    }
+    .carousel__text {
+        font-size: 8px;
+        transition: .5s;
+    }
+}
+@media (max-width: 370px) {
+    .h3-responsive {
+        font-size: 80%;
+        transition: .5s;
+    }
+    .carousel__text {
+        font-size: 6px;
+        transition: .5s;
+    }
+}
